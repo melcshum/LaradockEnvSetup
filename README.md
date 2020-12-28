@@ -161,7 +161,7 @@ php artisan voyager:install --with-dummy
 - password: password
 
 
-## To fix the  php artisan db issue
+## To fix php artisan db issue
 in .env file under laravel folder
 ``` 
 WORKSPACE_INSTALL_MYSQL_CLIENT=true
