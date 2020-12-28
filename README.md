@@ -122,21 +122,6 @@ Schema::connection('mongodb')->table('test', function (Blueprint $collection) {
 
 
 
-# Setup Laravel voyager admin platform
-
-
-```
-composer require tcg/voyager
-```
-
-```
-php artisan voyager:install --with-dummy
-```
-
-- email: admin@admin.com
-- password: password
-
-
 
 # Development
 ```
@@ -159,6 +144,22 @@ php artisan config:cache
 
 composer dump-autoload
 ```
+
+
+
+## Setup Laravel voyager admin platform
+
+```
+composer require tcg/voyager
+```
+
+```
+php artisan voyager:install --with-dummy
+```
+
+- email: admin@admin.com
+- password: password
+
 
 ## To fix the  php artisan db issue
 in .env file under laravel folder
