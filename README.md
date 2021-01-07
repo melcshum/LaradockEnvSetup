@@ -158,7 +158,7 @@ php artisan voyager:install --with-dummy
 ```
 
 - email: admin@admin.com
-- password: password
+- password: secret
 
 
 ## To fix php artisan db issue
